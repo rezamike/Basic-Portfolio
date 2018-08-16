@@ -54,7 +54,7 @@ header {
 }
 
 h1 {
-    padding: 20px 20px 24px 20px;
+    padding: 20px;
     margin: auto;
     float: left;
     background-color: #4aaaa5;
@@ -125,6 +125,7 @@ hr {
 .portfolio {
     margin: auto;
     padding: 20px;
+    overflow: auto;
 }
 
 .pimage {
@@ -150,8 +151,8 @@ hr {
 .hangmanset, .rpgset, .triviaset, .widgetset, .rockset {
     width: 200px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px;
+    float: left;
 }
 
 #messagebox {
