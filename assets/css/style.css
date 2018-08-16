@@ -1,22 +1,31 @@
+main {
+    background-color: green;
+}
+
 h1 {
+    position: top;
     float: left;
     background-color: #4aaaa5;
     color: white;
-    margin: 20px;
-    padding: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.heading {
-    float: right;
+.nav {
+    width: 960px;
+    overflow: auto;
+    margin: auto;
 }
 
-header {
-    margin: 20px;
-    padding: 20px;
+.tags {
+    float: right;
+    overflow: auto;
+}
+
+.header {
     width: 100%;
+    overflow: auto;
     background-color: #ffffff;
-    border-color: #cccccc;
+    border-bottom: #cccccc;
 }    
 
 h2 {
@@ -24,18 +33,17 @@ h2 {
 }
 
 #copyright {
+    overflow: auto;
     text-align: center;
     color: white;
     background-color: #666666;
     width: 100%;
-    margin: 20px;
-    padding: 20px;
 }
 
-main {
+.main {
+    width: 960px;
+    margin: 0 auto;
     overflow: auto;
-    padding: 20px;
-    margin: 20px;
     background-color: #ffffff;
     border-color: #dddddd;
 }
@@ -49,4 +57,8 @@ main {
     width: 960px;
     margin: 20px;
     padding: 20px;
+}
+
+#topline {
+    overflow: auto;
 }
